@@ -1,0 +1,11 @@
+# mysql
+mysql:
+    db:
+#        host: 10.2.32.85:3306       #product
+        host: 127.0.0.1:3306       #develop
+        database: test
+        username: root
+        password: root
+        MaxOpenConns: 10
+        MaxIdleConns: 1
+        enable: true # 是否写入grih数据库
